@@ -8,7 +8,13 @@ use crate::error::Result;
 use crate::config::{ConfigManager, Profile};
 
 #[derive(Parser)]
-#[command(version, about)]
+#[command(
+    version,
+    about,
+    long_about = "GitOpus - Git multi-account management tool\nVersion: 0.2.0",
+    name = "gitopus"
+)]
+
 struct Cli {
     #[command(subcommand)]
     command: Commands,

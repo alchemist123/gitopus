@@ -1,5 +1,5 @@
 use serde::{Deserialize, Serialize};
-use std::path::{PathBuf, Path};
+use std::path::PathBuf;
 use directories::ProjectDirs;
 use crate::error::*;
 
