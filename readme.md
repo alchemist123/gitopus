@@ -23,7 +23,7 @@ cargo build --release
 After building the project, you can run the GitOpus CLI tool:
 
 ```bash
-./target/release/gitopus
+sudo cp target/release/gitopus /usr/local/bin/
 ```
 
 ### Commands
