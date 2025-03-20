@@ -1,1 +1,0 @@
-/root/repositorys/gitopus/target/release/gitopus: /root/repositorys/gitopus/src/config.rs /root/repositorys/gitopus/src/error.rs /root/repositorys/gitopus/src/git.rs /root/repositorys/gitopus/src/main.rs /root/repositorys/gitopus/src/profile.rs
